@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 5em;
+}
+
+caption {
+    font-size: 30px;
+    margin-bottom: 1em;
+    font-weight: bold;
+}

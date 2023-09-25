@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style7.css">
+    <title>21BCE10004 CSS_Task 7</title>
+</head>
+
+<body>
+    <h3>CSS_Task 7 (Prakarsh Joshi 21BCE10004)</h3>
+    <div class="container">
+        <div class="form-table">
+            <form action="" id="form-content">
+                <table class="table-content">
+                    <tr id="name">
+                        <td class="col-1"><label for="name">Name:</label></td>
+                        <td><input type="text" placeholder="Your Name" id="name" name="name"></td>
+                    </tr>
+                    <tr id="email">
+                        <td class="col-1"><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" placeholder="Your Email" name="email"></td>
+                    </tr>
+                    <tr id="pw">
+                        <td class="col-1"><label for="pw">Password:</label></td>
+                        <td><input type="password" id="pw" name="password"></td>
+                    </tr>
+                    <tr id="phone">
+                        <td class="col-1"><label for="phone">Phone Number:</label></td>
+                        <td><input type="text" id="phone" name="phone"></td>
+                    </tr>
+                    <tr id="gender">
+                        <td class="col-1"><label for="gender">Gender: </label></td>
+                        <td>
+                            <input type="radio" id="gender" name="radio-male">
+                            <label for="gender" id="radio-male">Male</label>
+                            <input type="radio" id="gender" name="radio-female">
+                            <label for="gender" id="radio-female">Female</label>
+                            <input type="radio" id="gender" name="radio-other">
+                            <label for="gender" id="radio-other">Other</label>
+                        </td>
+                    </tr>
+                    <tr id="lang">
+                        <td class="col-1"><label for="lang">Language:</label></td>
+                        <td>
+                            <select name="lang-select" id="lang">
+                                <option value="en">English</option>
+                                <option value="es">Spanish</option>
+                                <option value="in">Hindi</option>
+                                <option value="fr">French</option>
+                                <option value="jp">Japanese</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr id="zip">
+                        <td class="col-1"><label for="zip">Zip Code:</label></td>
+                        <td><input type="text" id="zip"></td>
+                    </tr>
+                    <tr id="about">
+                        <td class="col-1"><label for="about">About:</label></td>
+                        <td><textarea name="about" id="about" cols="30" rows="3" placeholder="Write about yourself..."></textarea></td>
+                    </tr>
+                    <tr id="register-button">
+                        <td colspan="2"><button type="submit">Register</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.container-img {
+    text-align: center;
+    margin: 100px 0 10px 0;
+}
+
+.form-content {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+input {
+    width: 94.3%;
+    padding: 10px 20px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: 1px solid lightgray;
+}
+
+#login-button {
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0px;
+    background-color: rgb(44, 179, 55);
+    border: 0;
+    color: white;
+    transition: 0.1s;
+}
+
+#login-button:hover {
+    background-color: rgb(90, 197, 99);
+}
+
+#login-button:active {
+    background-color: rgb(20, 128, 29);
+}
+
+#remember {
+    width: min-content;
+    margin-top: 10px;
+}
+
+.form-footer {
+    /* display: flex; */
+    background-color: #ebebeb;
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid lightgray;
+    align-content: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+#cancel-button {
+    margin: 10px;
+    width: 100px;
+    color: white;
+    background-color: rgb(226, 64, 64);
+    border: 0;
+    border-radius: 5px;
+    padding: 12px 0;
+    transition: 0.2s;
+}
+
+#cancel-button:hover {
+    background-color: rgb(253, 103, 103);
+}
+
+#cancel-button:active {
+    background-color: rgb(177, 25, 25);
+}
+
+#forgot {
+    float: right;
+    margin: 20px 10px;
+}

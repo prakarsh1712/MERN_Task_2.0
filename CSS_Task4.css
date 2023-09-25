@@ -1,0 +1,49 @@
+.container {
+    margin-top: 100px;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.text-container {
+    display: flexbox;
+    margin-left: 10%;
+}
+
+.sidenav a {
+    text-decoration: none;
+    padding: 30px;
+    position: absolute;
+    /* border: 1px solid rgba(0,0,0,0); */
+    border-radius: 0px 10px 10px 0px;
+    left: -120px;
+    width: 100px;
+    font-size: 18px;
+    color: white;
+    transition: 0.2s;
+}
+
+.sidenav a:hover {
+    left: 0;
+    width: 100px;
+}
+
+.sidenav #home {
+    background-color: rgb(47, 38, 61);
+}
+
+.sidenav #html {
+    top: 240px;
+    background-color: rgb(96, 88, 141);
+}
+
+.sidenav #css {
+    top: 340px;
+    background-color: rgb(81, 157, 170);
+}
+
+.sidenav #js {
+    top: 440px;
+    background-color: rgb(94, 177, 152);
+}

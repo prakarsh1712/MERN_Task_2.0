@@ -1,0 +1,66 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(179, 46, 101);
+    justify-content: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    margin: 5% 32% 5% 32%;
+    height: 600px;
+    line-height: 35px;
+}
+
+.table-content {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+}
+
+tbody {
+    margin-top: 15px;
+}
+
+.table-content .col-1 {
+    padding: 5px 50px 5px 5px;
+}
+
+input {
+    padding: 5px;
+}
+
+textarea {
+    overflow: scroll;
+    height: 100px;
+    width: 177px;
+    max-width: 400px;
+    max-height: 100px;
+}
+
+#register-button button {
+    text-align: center;
+    width: 100%;
+    padding: 27px 0;
+    margin-top: 20px;
+    height: auto;
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    border: 0;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+
+#register-button button:hover,
+#register-button button:focus {
+    background-color: #e2e2e2;
+}
+
+#register-button button:active {
+    background-color: #aaaaaa;
+}
+
+td {
+    padding: 0;
+}

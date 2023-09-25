@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21BCE10004 BS_Task 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="style5.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="form-container">
+            <form action="" class="form needs-validation" novalidate>
+                <div class="row form-group">
+                    <label for="fname" class="col-sm-2 col-form-label fw-bold">First Name</label>
+                    <div class="col-sm-10 d-flex">
+                        <div class="input-group-prepend material-icons">
+                            <label for="fname" class="input-group-text"><span class="material-icons">person</span></label>
+                        </div>
+                        <input type="text" class="form-control" id="fname" placeholder="First Name" required>
+                        <div class="ms-2 invalid-feedback">
+                            Please provide your first name
+                        </div>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label for="lname" class="col-sm-2 col-form-label fw-bold">Last Name</label>
+                    <div class="col-sm-10 d-flex">
+                        <div class="input-group-prepend material-icons">
+                            <label for="lname" class="input-group-text"><span class="material-icons">person</span></label>
+                        </div>
+                        <input type="text" class="form-control" id="lname" placeholder="Last Name" required>
+                        <div class="ms-2 invalid-feedback">
+                            Please provide your last name
+                        </div>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label for="email" class="col-sm-2 col-form-label fw-bold">Email</label>
+                    <div class="col-sm-10 d-flex">
+                        <div class="input-group-prepend material-icons">
+                            <label for="email" class="input-group-text"><span class="material-icons">mail</span></label>
+                        </div>
+                        <input type="email" class="form-control" id="email" placeholder="Email Address" required>
+                        <div class="ms-2 ms-2 invalid-feedback">
+                            Please provide your email address
+                        </div>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label for="phone" class="col-sm-2 col-form-label fw-bold">Phone Number</label>
+                    <div class="col-sm-10 d-flex">
+                        <div class="input-group-prepend material-icons">
+                            <label for="phone" class="input-group-text"><span class="material-icons">phone</span></label>
+                        </div>
+                        <input type="text" class="form-control" id="email" placeholder="(845)555-1212" required>
+                        <div class="ms-2 invalid-feedback">
+                            Please provide your phone number
+                        </div>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label for="addr" class="col-sm-2 col-form-label fw-bold">Address</label>
+                    <div class="col-sm-10 d-flex">
+                        <div class="input-group-prepend material-icons">
+                            <label for="addr" class="input-group-text"><span class="material-icons">house</span></label>
+                        </div>
+                        <input type="text" class="form-control" id="addr" placeholder="Address" required>
+                        <div class="ms-2 invalid-feedback">
+                            Please provide your address
+                        </div>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label for="city" class="col-sm-2 col-form-label fw-bold">City</label>
+                    <div class="col-sm-10 d-flex">
+                        <div class="input-group-prepend material-icons">
+                            <label for="city" class="input-group-text"><span class="material-icons">house</span></label>
+                        </div>
+                        <input type="text" class="form-control" id="city" placeholder="City" required>
+                        <div class="ms-2 invalid-feedback">
+                            Please provide your city
+                        </div>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label for="state" class="col-sm-2 col-form-label fw-bold">State</label>
+                    <div class="col-sm-10 d-flex">
+                        <div class="input-group-prepend material-icons">
+                            <label for="state" class="input-group-text"><span class="material-icons">list</span></label>
+                        </div>
+                        <select class="form-control custom-select" id="state" required>
+                            <option selected>Please select your state</option>
+                            <option value="1">Maharashtra</option>
+                            <option value="2">Uttar Pradesh</option>
+                            <option value="3">West Bengal</option>
+                            <option value="4">Tamil Nadu</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label for="radio-host" class="col-sm-2 col-form-label fw-bold">Do you have hosting?</label>
+                    <div class="col-sm-10 d-flex">
+                        <input type="radio" class="" id="radio-host-yes" name="radio-host" value="Yes">
+                        <label for="radio-host-yes" class="radio-label">Yes</label>
+                        <input type="radio" class="" id="radio-host-no" name="radio-host" value="No">
+                        <label for="radio-host-no" class="radio-label">No</label>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label for="desc" class="col-sm-2 col-form-label fw-bold">Project Description</label>
+                    <div class="col-sm-10 d-inline-flex">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text material-icons" id="textarea-prepend">edit</span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Project Description">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-6 me-auto ms-auto text-center">
+                        <button type="submit" class="btn d-inline-flex mt-4" id="submit-button">Send<span class="material-icons ms-2 fs-4 align-self-center">send</span></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+
+</body>
